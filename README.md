@@ -4,6 +4,9 @@ This tool is for converting Mapbox vector tiles stored in .mbtiles database into
 
 Each .PBF layer is rendered as separate raster layer
 
+## Limitation
+Currently renders only Polygons and MultiPolygons without outline (fill only)
+
 ## Usage
 
 `mbt = MBTiles("path_to_mbtiles_file")`
